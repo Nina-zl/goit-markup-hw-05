@@ -751,82 +751,105 @@ position: relative;
 background-color: #404bbf;
 }
 
-.subscribe {
-    margin-left: auto;
+
+
+
+
+.subscribe-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 
-.subscribe-block {
-    display: flex;
+
+
+.subscribe-btn {
+    margin-left: 24px;
+    display: inline-flex;
     align-items: center;
-
-}
-
-
-.form-wraper-cont-footer {
-    margin-right: 24px;}
-    
-.footer-btn {
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    padding: 8px 24px;
-    display: inline-flex;
-    border: none;
-    margin: 0 auto;
-    min-width: 165px;
-    height: 40px;
-    
+    fill: #fff;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
-    background-color: #404bbf;}
 
 
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background-color: #31d0aa;}
 
-    .social-list-icons-footer {
-        margin-left: 16px;
-        fill: #F4F4FD;
-    }
+.input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
-
-    .form-footer-input {
-    width: 264px;
-    height: 40px;    
-    border-radius: 4px;
-    border: 1px solid #fff;
-    padding-left: 16px; 
-    outline: none;  
-    transition: fill;
-    
+.footer-input {
+    position: relative;
+    display: inline-block;
 }
 
-/* .form-user-input:hover, */
-.form-footer-input:focus {
-    border: 1px solid #4d5ae5;  
+.subscribe-email {
+    width: 264px;
+    padding: 16px 8px ;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
     background-color: transparent;
-    
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.subscribe-email::placeholder {
+    color: #fff;
    
 }
 
-.form-footer-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #fff;
+.subscribe-email:focus {
+    border-color: #31d0aa;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Check */
