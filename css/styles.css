@@ -251,8 +251,6 @@ margin: 0 auto;
 
 .benefits-list-item {
      width: calc((100% - 72px) / 4); 
-     /* justify-content: space-between; */
-     /* width: 264px; */
 }
 
 .benefits-item-title {
@@ -271,14 +269,6 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* #endregion Our Benefits */
-
-
-/*  #region Our Team */
-/* .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-} */
 
 .our-team {
     background-color: #f4f4fd;
@@ -466,9 +456,6 @@ transform: translateY(0%);
 }
 .overlay-text {
     background-color: #4d5ae5;
-    /* padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px; */
     padding: 40px 32px;
     position: absolute;
     transform: translateY(100%);
@@ -640,11 +627,6 @@ display: inline-block;
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
- /* Для автоперевірки */
-/* .icon-close:hover,
-.icon-close:focus {
-        fill: #fff;
-} */
 
 .form-wraper-cont {
     margin-bottom: 8px;
@@ -727,18 +709,6 @@ position: relative;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .form-user-coment {
-    width: 100%;
-    resize: none;
-    min-height: 120px;
-    border-radius: 4px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    padding: 8px 16px;
-    outline: none;
-       background-color: transparent;
-       outline: transparent;
-       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-} */
 
 .user-coment::placeholder {
     font-family: "Roboto", sans-serif;
@@ -773,11 +743,7 @@ position: relative;
     border: none;
 }
 
-/* .checkbox:checked+.form-user-checkbox .castom-checkbox {
-    background-color: #404BBF;
-    fill: #f4f4fd;;
-    border: transparent;
-} */
+
 
 .form-user-checkbox {
     font-weight: 400;
