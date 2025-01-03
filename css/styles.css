@@ -654,6 +654,11 @@ display: inline-block;
 .form-textarea {
 margin-bottom: 16px}
 
+
+.user-comment:focus {
+    border-color: #4D5AE5;
+}
+
 .form-user-label {
     display: block;
     margin-bottom:4px;
@@ -777,7 +782,7 @@ position: relative;
 .form-user-checkbox {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -793,6 +798,9 @@ position: relative;
 .user-privacy { 
     margin-bottom: 24px;
     line-height: 1.17;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 
 
